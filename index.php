@@ -40,6 +40,10 @@
     <script src="js/alert/sweet-alert.js"></script>
    	<!-- sweet alert-->
     <link rel="stylesheet" type="text/css" href="css/alert/sweet-alert.css">
+
+    <!--responsive slider -->
+    <link rel="stylesheet" href="css/slider/flexslider.css" type="text/css" media="screen" />
+
     <?php
     include 'css/style_config.php';
 	?>
@@ -48,6 +52,7 @@
 
   <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
     
+   
 	<?php 
 	
 	include 'index/navbar.php'; 
@@ -56,13 +61,11 @@
    
 	include 'index/about.php'; 
 	
-	include 'index/timeline.php';
+	include 'index/index_food_category.php'; 
+
+  include 'index/index_food_menu.php'; 
 	
-	include 'index/skill_bar.php';
-	
-	include 'index/service.php'; 
-	
-    include 'index/portofolio_new.php'; 
+  //include 'index/portofolio_new.php'; 
 	
 	include 'index/pricing.php';
    
@@ -95,8 +98,7 @@
 	
 	?>
 
-    
-
+   
    
 
     <!-- JavaScripts -->
@@ -122,6 +124,24 @@
     <script src="js/function.js"></script>
 
     <script src="js/custom.js"></script>
+
+ <!-- FlexSlider -->
+  <script defer src="js/slider/jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+        controlNav: "thumbnails",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 
   </body>
 </html>

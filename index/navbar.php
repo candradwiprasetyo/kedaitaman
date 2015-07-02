@@ -7,14 +7,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><strong>Melon</strong> Development</a>
+          <a class="navbar-brand" href="#"><strong>Kedai</strong> Taman</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
           <li ><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">My Latest Work</a></li>
-            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Menu</a></li>
+            <li><a href="#pricing">Reservation</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->

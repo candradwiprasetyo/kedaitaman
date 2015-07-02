@@ -39,8 +39,19 @@ a:hover {
 }
 
 .banner .overlay {
-  position: absolute;
+  position: fixed;
   z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: <?= $bg_color?>;
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+}
+
+.overlay_new {
+  position: fixed;
+  z-index: -9999;
   height: 100%;
   width: 100%;
   background: <?= $bg_color?>;
@@ -53,14 +64,14 @@ a:hover {
 /*       02 - Navbar Elements
 /*==========================================*/
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li:hover a {
-  color: #888888;
+  color: #26a75a;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a {
-  color: #888888;
+  color: #26a75a;
   font-weight:bold;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a:hover {
-  color: #888888;
+  color: #26a75a;
 }
 /*==========================================*/
 /*       03 - Banner Elements
@@ -111,14 +122,15 @@ a:hover {
 /*        09 - portfolio Elements
 /*==========================================*/
 .portfolio .portfoliofilter a .filterbutton {
-  color: #888888;
+  color: #333;
+  background: #fff;
 }
 .portfolio .portfoliofilter a.current .filterbutton {
   background: <?= $bg_color ?>;
-  border: 1px solid <?= $bg_color ?>;
+  
 }
 .portfolio .portfoliofilter a:hover .filterbutton {
-  border: 1px solid <?= $bg_color ?>;
+  
   color: <?= $bg_color ?>;
 }
 .portfolio .portfoliocontent .content .overlay:hover {
