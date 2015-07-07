@@ -249,8 +249,8 @@ html[xmlns] .flexslider .slides {
   width: 25%;
   float: left;
   margin: 0;
-  
   border:1px solid #fff;
+  background: #000;
 }
 
 
@@ -259,7 +259,7 @@ html[xmlns] .flexslider .slides {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 1;
+  opacity: 0.5;
   cursor: pointer;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;

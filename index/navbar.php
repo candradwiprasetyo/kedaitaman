@@ -12,10 +12,9 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
           <li ><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
             <li><a href="#portfolio">Menu</a></li>
-            <li><a href="#pricing">Reservation</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Kontak</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

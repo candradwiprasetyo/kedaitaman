@@ -1,6 +1,6 @@
 <!-- banner section BEGIN -->
-    <section class="banner" id="home">
-     <!-- <div class="overlay"></div>-->
+    <section class="banner" id="home" style="margin-bottom:60px;">
+      <div class="overlay"></div>
       <div class="banner-content">
         <div class="container">
           
@@ -14,7 +14,7 @@
         
         </div>
            
-         <div class="col-md-10 col-md-offset-1">
+         <div class="col-md-12">
 <!--
             <ul class="new_topmenu">
             <li>Home</li>
@@ -28,21 +28,21 @@
       <section class="slider">
         <div class="flexslider">
           <ul class="slides">
-            <li data-thumb="images/slider/kitchen_adventurer_cheesecake_brownie.jpg">
-              <img src="images/slider/kitchen_adventurer_cheesecake_brownie.jpg" />
-              <p class="flex-caption"><b>Adventurer</b> Cheesecake Brownie</p>
+            <li data-thumb="images/slider/1.jpg">
+              <img src="images/slider/1.jpg" />
+              <p class="flex-caption"><b>Soto</b> Kudus</p>
             </li>
-            <li data-thumb="images/slider/kitchen_adventurer_lemon.jpg">
-              <img src="images/slider/kitchen_adventurer_lemon.jpg" />
-              <p class="flex-caption"><b>Adventurer</b> Lemon</p>
+            <li data-thumb="images/slider/2.jpg">
+              <img src="images/slider/2.jpg" />
+              <p class="flex-caption"><b>Ayam</b> Bakar</p>
             </li>
-            <li data-thumb="images/slider/kitchen_adventurer_donut.jpg">
-              <img src="images/slider/kitchen_adventurer_donut.jpg" />
-              <p class="flex-caption"><b>Adventurer</b> Donut</p>
+            <li data-thumb="images/slider/3.jpg">
+              <img src="images/slider/3.jpg" />
+              <p class="flex-caption"><b>Lontong Pecel</b></p>
             </li>
-             <li data-thumb="images/slider/kitchen_adventurer_caramel.jpg">
-              <img src="images/slider/kitchen_adventurer_caramel.jpg" />
-              <p class="flex-caption"><b>Adventurer</b> Caramel</p>
+             <li data-thumb="images/slider/4.jpg">
+              <img src="images/slider/4.jpg" />
+              <p class="flex-caption"><b>Es</b> Teler</p>
             </li>
           </ul>
         </div>
@@ -55,4 +55,3 @@
        
     </section><!-- /.banner -->
     
-    <!-- banner section END -->

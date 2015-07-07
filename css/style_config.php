@@ -1,8 +1,8 @@
 <?php
 
-//$bg_color = '#1CBB9B';
-//$bg_color = "#67A1C6";
-$bg_color = "#67A1C6";
+$bg_color = '#1abc9c';
+//$bg_color = "#f39c12";
+//$bg_color = "#27ae60";
 ?>
 <style>
 /* CSS Document */
@@ -17,7 +17,7 @@ $bg_color = "#67A1C6";
 
 html,
 body {
-  color: #888888;
+  color: #fff;
 }
 html h1,
 body h1,
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .banner .overlay {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -47,6 +47,7 @@ a:hover {
   opacity: 0.8;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
+  border-bottom: 1px solid #fff;
 }
 
 .overlay_new {
@@ -64,14 +65,14 @@ a:hover {
 /*       02 - Navbar Elements
 /*==========================================*/
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li:hover a {
-  color: #26a75a;
+  color: #626262;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a {
-  color: #26a75a;
+  color: #626262;
   font-weight:bold;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a:hover {
-  color: #26a75a;
+  color: #626262;
 }
 /*==========================================*/
 /*       03 - Banner Elements
@@ -92,7 +93,7 @@ a:hover {
 /*         05 - About Elements
 /*==========================================*/
 .about .content .icon i {
-  color: <?= $bg_color ?>;
+  color: #666;
 }
 /*==========================================*/
 /*        06 - Testimonial Elements
@@ -126,7 +127,7 @@ a:hover {
   background: #fff;
 }
 .portfolio .portfoliofilter a.current .filterbutton {
-  background: <?= $bg_color ?>;
+  background: #4dbf91;
   
 }
 .portfolio .portfoliofilter a:hover .filterbutton {
@@ -184,7 +185,8 @@ a:hover {
 /*        16 - Map Elements
 /*==========================================*/
 .map .map-title {
-  background: <?= $bg_color ?>;
+  background: #fff;
+  color: #626262;
 }
 /*==========================================*/
 /*        17 - contact Elements
@@ -212,7 +214,7 @@ a:hover {
 /*       18 - Footer Elements
 /*==========================================*/
 .footer {
-  background-color: <?= $bg_color ?>;
+ 
 }
 .footer .right .social-icons .circle:hover .fa {
   color: #fff;
@@ -223,7 +225,7 @@ a:hover {
 @media (max-width: 768px) {
   .navbar-inverse .navbar-toggle {
     border: 1px solid <?= $bg_color ?>;
-    margin: 23px 10px;
+    margin: 15px 10px;
   }
   .navbar-inverse .navbar-toggle span.icon-bar {
     background: <?= $bg_color ?>;
@@ -233,10 +235,10 @@ a:hover {
     background: <?= $bg_color ?>;
   }
   .navbar-inverse .navbar-collapse ul.navbar-nav li.active {
-    color: <?= $bg_color ?>;
+    color: #626262;
   }
   .navbar-inverse .navbar-collapse ul.navbar-nav li a {
-    color: #888888;
+    color: #626262;
   }
   .navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
     background: <?= $bg_color ?>;
@@ -305,7 +307,7 @@ a:hover {
 .testimonial .overlay {
   width: 100%;
   height: 100%;
-  background-color: <?= $bg_color ?>;
+  background-color: #fff;
   position: absolute;
   opacity: 0.7;
   -webkit-opacity: 0.7;

@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
     
-          <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-12">
           
           <div class="col-md-4 feature wow animated fadeInUp" data-wow-delay="0.3s">
             <a href="#">

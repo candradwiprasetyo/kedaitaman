@@ -1,7 +1,7 @@
 
  <section class="portfolio" id="portfolio">
 <div class="container">
-   <div class="col-md-10 col-md-offset-1">
+   <div class="col-md-12">
 
       <div class="title text-center wow animated fadeInRight"><div class="new_title">Favourite <strong>Menu</strong></div></div>
       
@@ -9,7 +9,7 @@
      
         <div class="portfoliofilter">
           <a href="javascript:void(0)" data-filter="*" class="current" style="outline:none;">
-            <div class="def-btn filterbutton">All Categories</div>
+            <div class="def-btn filterbutton">Semua</div>
           </a>
           <a href="javascript:void(0)" data-filter=".makanan" style="outline:none;">
             <div class="def-btn filterbutton">Makanan</div>
@@ -40,28 +40,65 @@
                 'Mie Goreng Jogja',
                 'Mie Kuah Jogja',
                 'Pecel',
-                'Wimbi Store',
-                'Daun Pandan Catering',
-                'BPM',
-                'Prima Mandiri Trans',
-                'Agenda Kota'
+                'Jus Melon',
+                'Jus Alpukat',
+                'Jus Tomat',
+                'Tahu Crispy',
+                'Cheese Stick'
                 );
+          $price_cat = array(
+                '',
+                '8.000',
+                '17.000',
+                '17.000',
+                '10.000',
+                '15.000',
+                '15.000',
+                '10.000',
+                '10.000',
+                '10.000',
+                '12.000',
+                '7.000',
+                '13.000'
+                );
+
+          $figure_content = "New";
+          if($i > 10){
+            $kategori = "snack";
+            $chart_color = "chart_color3";
+            $figure_color = "figure_date_color3";
+          }else if($i > 7){
+            $kategori = "minuman";
+             $chart_color = "chart_color2";
+             $figure_color = "figure_date_color2";
+          }else{
+            $kategori  = "makanan";
+             $chart_color = "chart_color1";
+             $figure_color = "figure_date_color1";
+          }
+
+          if($i > 3){
+            $figure_color = "";
+            $figure_content = "";
+          }
          
         ?>
                 
-        <figure class="effect-milo <?php if($i > 10){ echo " makanan"; }else if($i > 5){ echo " minuman"; }else{ echo " snack"; }?>">
-        <a  class="fancybox" href="images/portofolio_new/<?= $i ?>.jpg" data-fancybox-group="gallery"  title="Lorem ipsum dolor sit amet"><img src="images/portofolio_new/<?= $i ?>.jpg" alt="img<?= $i ?>"/>
+        <figure class="effect-milo <?php echo $kategori ?>">
+        <a  class="fancybox" href="images/menu/<?= $i ?>.jpg" data-fancybox-group="gallery"  title="<?= $nama_cat[$i] ?>"><img src="images/menu/<?= $i ?>.jpg" alt="img<?= $i ?>"/>
           <figcaption>
             
                         <div class="portofolio_putih">
-                        <div><strong><?= $nama_cat[$i] ?></strong><br />
-                        <span class="portofolio_putih_kecil"></span> </div>
-                        
-                        <div class="portofolio_kiri">&nbsp;</div>
-                        <div class="portofolio_kanan">WEB DESIGN</div>
+                        <div class="portofolio_price"><span class="portofolio_rp">Rp</span> <?= $price_cat[$i] ?><br /></div>
+                        <div class="portofolio_putih_kecil"><?= $nama_cat[$i] ?></div> 
+                        <div class="portofolio_putih_kecil_kategori"><?= ucfirst($kategori) ?></div>
+                       
+                        <div class="portofolio_bawah <?= $chart_color?>"></div>
                        
             </div>
-                        <span class="figure_date">13 Nov 2014</span>
+                        <span class="figure_date <?= $figure_color ?>"></span>
+                        <span class="figure_date_content"><?= $figure_content ?></span>
+                        
             <p class="portofolio_icon">
                    
                         </p>

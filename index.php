@@ -14,7 +14,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
 	
     <!-- timeline -->
-	<link rel="stylesheet" href="css/timeline.css"> 
+	  <link rel="stylesheet" href="css/timeline.css"> 
     
     <!-- Animate.css -->
     <link href="css/animate.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <link href="css/owl.theme.css" rel="stylesheet">
 
     <!-- Fancybox -->
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
     <!-- Main CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -58,22 +58,22 @@
 	include 'index/navbar.php'; 
     
 	include 'index/banner.php'; 
-   
-	include 'index/about.php'; 
 	
 	include 'index/index_food_category.php'; 
+
+  include 'index/about.php'; 
 
   include 'index/index_food_menu.php'; 
 	
   //include 'index/portofolio_new.php'; 
 	
-	include 'index/pricing.php';
+	//include 'index/pricing.php';
    
 	include 'index/testimonial.php'; 
 	
-	//include 'index/map.php';
+	include 'index/map.php';
 	
-	include 'index/update.php'; 
+	//include 'index/update.php'; 
 	
 	include 'index/contact.php'; 
 	

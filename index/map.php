@@ -2,7 +2,7 @@
     <section class="map">
       <div class="map-title ">
         <div class="container wow animated fadeInLeft">
-          <h1>Visit My <strong>Office</strong></h1>
+          <h1>Kunjungi<strong>  Kami</strong></h1>
         </div>
       </div>
      <div class=" wow animated fadeInRight">
