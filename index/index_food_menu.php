@@ -1,30 +1,50 @@
 
  <section class="portfolio" id="portfolio">
 <div class="container">
-   <div class="col-md-12">
+   
 
-      <div class="title text-center wow animated fadeInRight"><div class="new_title">Favourite <strong>Menu</strong></div></div>
+      <div class="col-md-3">
+
+      <div class="title text-center wow animated fadeInRight"><div class="new_title">Category</div></div>
       
+      </div>
+
+      <div class="col-md-9">
+        <div class="title text-center wow animated fadeInRight"><div class="new_title">Favourite <strong>Menu</strong></div></div>
+      </div>
+
+    <div class="col-md-3">
       <div class="title text-center wow animated fadeInDown">
      
         <div class="portfoliofilter">
-          <a href="javascript:void(0)" data-filter="*" class="current" style="outline:none;">
+          <a href="javascript:void(0)" data-filter="*" class="current" style="outline:none; text-decoration:none">
             <div class="def-btn filterbutton">Semua</div>
           </a>
-          <a href="javascript:void(0)" data-filter=".makanan" style="outline:none;">
-            <div class="def-btn filterbutton">Makanan</div>
+          <a href="javascript:void(0)" data-filter=".makanan" style="outline:none; text-decoration:none">
+            <div class="def-btn filterbutton">Makanan Utama</div>
           </a>
-          <a href="javascript:void(0)" data-filter=".minuman" style="outline:none;">
-            <div class="def-btn filterbutton">Minuman</div> 
+          <a href="javascript:void(0)" data-filter=".minuman" style="outline:none; text-decoration:none">
+            <div class="def-btn filterbutton">Minuman Utama</div> 
           </a>
           
-           <a href="javascript:void(0)" data-filter=".snack" style="outline:none;">
-            <div class="def-btn filterbutton">Snack</div> 
+          <a href="javascript:void(0)" data-filter=".snack" style="outline:none; text-decoration:none">
+            <div class="def-btn filterbutton">Menu Pelengkap</div> 
           </a>
+          <a href="javascript:void(0)" data-filter=".snack" style="outline:none; text-decoration:none">
+            <div class="def-btn filterbutton">Aneka Jus</div> 
+          </a>
+          <a href="javascript:void(0)" data-filter=".snack" style="outline:none; text-decoration:none">
+            <div class="def-btn filterbutton">Camilan</div> 
+          </a>
+         
+          
+         
         </div><!--/.portfoliofilter -->
      
       </div>
 
+    </div>
+ <div class="col-md-9">
       
       <div class="title text-center wow animated fadeInLeft">
    

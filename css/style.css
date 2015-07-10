@@ -38,7 +38,7 @@ body {
   height: 100% !important;
   width: 100%;
  
-  background:url(../images/wood/2a.png) fixed;
+  background:url(../images/background/3.jpg) fixed;
   background-size: cover;
 
   
@@ -67,11 +67,10 @@ a:hover {
   text-decoration: none;
 }
 .def-btn {
-  display: inline-block;
-  width: 23%;
+  /*display: inline-block;*/
   height: 50px;
   line-height: 50px;
-  
+  text-decoration: none;
   color: #ffffff;
   text-transform: capitalize;
   font-size: 14px;
@@ -113,7 +112,6 @@ a:hover {
   padding: 20px 20px;
   outline:none;
   font-weight:500;
-  
 }
 .navbar-inverse .navbar-nav li:hover a {
   background-color: transparent;
@@ -568,6 +566,7 @@ a:hover {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
+  margin-bottom: 20px;
 }
 .portfolio .portfoliofilter a .filterbutton {
   margin-left: 0.5%;
@@ -586,7 +585,7 @@ a:hover {
 }
 
 .portfolio .portfoliocontent {
-  margin-top: 20px;
+
   width:100%;
 }
 /*
@@ -1343,7 +1342,7 @@ a:hover {
 
 .new_title{
   background:#fff; height:50px; line-height:50px;
-  font-size: 22px; color:#626262;
+  font-size: 20px; color:#626262;
   
   margin-bottom: 20px;
 }

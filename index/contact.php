@@ -18,7 +18,7 @@
                 <input type="text" class="form-control" placeholder="Judul">
               </div>
               <div class="col-md-12 wow animated fadeInUp" data-wow-delay="0.6s">
-                <textarea rows="3" class="form-control" placeholder="Pesan" style="max-width:100%; min-width:100%; min-height:100px;"></textarea>
+                <textarea rows="3" class="form-control" placeholder="Keterangan" style="max-width:100%; min-width:100%; min-height:100px;"></textarea>
               </div>
               <div class="col-md-12 button-container wow animated fadeInUp" data-wow-delay="0.8s">
                 <input type="submit" class="submit-btn def-btn" value="Kirim Pesan">
