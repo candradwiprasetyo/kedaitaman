@@ -10,7 +10,7 @@
           <div class="new_title">Tentang <strong>Kami</strong></div>
           </div>
 
-          <div class="col-md-5 title text-center wow animated fadeInUp" data-wow-delay="0.1s">
+          <div class="col-md-5 title text-center wow animated fadeInLeft" data-wow-delay="0.1s">
 
           <div class="content_putih">
              <img src="images/about.jpg" class="img_about">
@@ -27,7 +27,7 @@
           </div>
           <br>
 
-          <div class="col-md-7">
+          <div class="col-md-7 wow animated fadeInRight">
 
           <div class="content_putih">
             <div class="content_putih_desc">

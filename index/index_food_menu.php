@@ -5,7 +5,7 @@
 
       <div class="col-md-3">
 
-      <div class="title text-center wow animated fadeInRight"><div class="new_title">Category</div></div>
+      <div class="title text-center wow animated fadeInLeft"><div class="new_title">Category</div></div>
       
       </div>
 
@@ -14,7 +14,7 @@
       </div>
 
     <div class="col-md-3">
-      <div class="title text-center wow animated fadeInDown">
+      <div class="title text-center wow animated fadeInLeft">
      
         <div class="portfoliofilter">
           <a href="javascript:void(0)" data-filter="*" class="current" style="outline:none; text-decoration:none">
@@ -46,7 +46,7 @@
     </div>
  <div class="col-md-9">
       
-      <div class="title text-center wow animated fadeInLeft">
+      <div class="title text-center wow animated fadeInRight">
    
 <div class="grid"> <div class="portfoliocontent">
         <?php

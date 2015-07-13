@@ -4,7 +4,7 @@
       <div class="banner-content">
         <div class="container">
           
-          <div class="col-md-12">
+          <div class="col-md-12 wow animated fadeInUp">
 
             <div class="title">
             	<div class="icon_logo"></div>
@@ -14,7 +14,7 @@
         
         </div>
            
-         <div class="col-md-12">
+         <div class="col-md-12 wow animated fadeInUp">
 <!--
             <ul class="new_topmenu">
             <li>Home</li>
