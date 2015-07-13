@@ -925,8 +925,12 @@ a:hover {
 }
 .news .news-content .detail .title h3 {
   margin-top: 10px;
-  margin-bottom: 5px;
-  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color:#626262;
+
+  line-height: 26px;
 }
 .news .news-content .detail .info {
   margin-bottom: 10px;
@@ -943,7 +947,7 @@ a:hover {
 .news .news-content .detail .text {
   line-height: 25px;
   margin-bottom: 15px;
-  color:#626262;
+  color:#999;
 }
 .news .news-content .detail .post-date {
   border-top: 1px solid #eeeeee;

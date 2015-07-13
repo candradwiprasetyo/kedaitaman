@@ -175,9 +175,7 @@ a:hover {
 .news .news-content .media .quote {
   background: <?= $bg_color ?>;
 }
-.news .news-content .detail .title h3 {
-  color: <?= $bg_color ?>;
-}
+
 /*==========================================*/
 /*        15 - Clients Elements
 /*==========================================*/
