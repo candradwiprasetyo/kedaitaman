@@ -65,6 +65,8 @@
 
   include 'index/index_food_menu.php'; 
 	
+  include 'index/news.php';
+  
   //include 'index/portofolio_new.php'; 
 	
 	//include 'index/pricing.php';
@@ -88,7 +90,7 @@
 	
 	//include 'index/twitter_feed.php';
 	
-	//include 'index/news.php';
+	
 	
 	//include 'index/client.php';
 	

@@ -1,4 +1,4 @@
-<div id="update_page"></div>    <!-- testimonial section BEGIN-->
+ <!--<div id="update_page"></div>    testimonial section BEGIN-->
     <section class="testimonial text-center" id="testimonial">
       <div class="overlay"></div>
       
@@ -13,11 +13,14 @@
            <img src="images/candramelon.png" alt="img01" class="img_about" />
           </div>
           <div class="col-md-8 title text-center">
+              <div class="title_testimonial">
+                Soto Kudusnya enak
+              </div>
               <div class="text">
-                " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
+                " Soto Kudus Kedai Taman ini letaknya deket banget sama kosan gw, jadi suka deh kesini plus emang soto kudusnya enak juga sih.  "
               </div>
               <div class="name">
-                <span class="textbold">Johny Doe</span>, CEO of Rancabentang
+                <span class="textbold">Henny</span>, Mahasiswa
               </div>
             </div>
             </div>
@@ -27,15 +30,39 @@
            <img src="images/candramelon.png" alt="img01" class="img_about" />
           </div>
           <div class="col-md-8 title text-center">
+            <div class="title_testimonial">
+                Suasana & Service
+              </div>
               <div class="text">
-                " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
+                " Pelayanannya  baik dan cepat, baru duduk udah ditanyaan mau makan apa, 
+                kebersihan dijaga dengan baik oleh pengelolanya. 
+                Tempat makannya  enak rindang karena pohon besarnya dan konsep restorannya yang seperti kedai  "
               </div>
               <div class="name">
-                <span class="textbold">Johny Doe</span>, CEO of Rancabentang
+                <span class="textbold">Fevorite</span>, Mahasiswa
               </div>
             </div>
             </div><!--/.item -->
-            
+
+
+            <div class="item">
+               <div class="col-md-2 col-md-offset-1 title text-center">
+           <img src="images/candramelon.png" alt="img01" class="img_about" />
+          </div>
+          <div class="col-md-8 title text-center">
+            <div class="title_testimonial">
+                Tempat sangat nyaman 
+              </div>
+              <div class="text">
+                " Salah satu keunggulan rumah makan ini disediakan, toilet yang bersih, westafel dan juga parkiran yang luas, jadi gak perlu khawatir bagi anda yang ingin mengunjungi tempat ini dengan kendaraan roda dua atau roda empat"
+              </div>
+              <div class="name">
+                <span class="textbold">Agree</span>, Mahasiswa
+              </div>
+            </div>
+            </div><!--/.item -->
+
+                        
           </div><!--/.carousel-inner -->
         </div><!--/.container -->
 

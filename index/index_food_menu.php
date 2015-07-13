@@ -131,11 +131,22 @@
          ?>
       </div>
         </div>
+
+          
+
             </div>
 
-
+ <div class="col-md-4 col-md-offset-4">
+          <a href="#"><div class="button_portfolio_view_all">Lihat Semua</div></a>
+          </div> 
 
           </div>
+
+         
+        
         </div>
+
+ 
+        
             </section>
             <div style="clear:both;"></div>

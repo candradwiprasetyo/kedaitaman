@@ -309,9 +309,9 @@ a:hover {
   height: 100%;
   background-color: #fff;
   position: absolute;
-  opacity: 0.7;
-  -webkit-opacity: 0.7;
-  -moz-opacity: 0.7;
+  opacity: 0.4;
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
 }
 
 .gridline{
